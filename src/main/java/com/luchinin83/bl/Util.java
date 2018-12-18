@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class Util {
 
     public static final String DB_DRIVER = "org.h2.Driver";
-    public static final String DB_URL = "jdbc:h2:~/test";
-    public static final String DB_USERNAME = "";
+    public static final String DB_URL = "jdbc:h2:tcp://localhost/~/test";
+    public static final String DB_USERNAME = "sa";
     public static final String DB_PASSWORD = "";
 
     public Connection getConnection(){
